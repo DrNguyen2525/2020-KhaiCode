@@ -1,0 +1,10 @@
+version: '3'
+services:
+  new_year:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: lua
+    working_dir: /src
+    volumes:
+      - ./:/src
