@@ -28,34 +28,39 @@ var Wheel = function (x, y, radius) {
     /* NTS: In the unrotated position, the segments start at 'due right', and go clockwise. */
     this.segments = [
         {
-            width: Math.PI / 3,
+            width: Math.PI / 2.5,
             fillStyle: "#e9967a",
             text: ["Dồi dào", "sức khỏe", "", "", "", "", ""]
         },
         {
-            width: Math.PI / 3,
+            width: Math.PI / 2.5,
             fillStyle: "#1e90ff",
             text: ["Đỗ JLPT", "", "", "", "", "", ""]
         },
         {
-            width: Math.PI / 3,
+            width: Math.PI / 2.5,
             fillStyle: "#32cd32",
             text: ["IELTS 9.0", "", "", "", "", "", ""]
         },
         {
-            width: Math.PI / 3,
+            width: Math.PI / 2.5,
             fillStyle: "#9370d8",
             text: ["Tập tành", "dáng đẹp", "", "", "", "", ""]
         },
         {
-            width: Math.PI / 3,
+            width: Math.PI / 2.5,
             fillStyle: "#ffd700",
             text: ["GPA > 3.2", "", "", "", "", "", ""]
         },
         {
-            width: Math.PI / 3,
-            fillStyle: "#fdf5e6",
+            width: Math.PI / 2.5,
+            fillStyle: "#0099ff",
             text: ["Code", "không có", "bug", "", "", "", ""]
+        },
+        {
+            width: Math.PI / 2.5,
+            fillStyle: "#ff9933",
+            text: ["Điểm", "rèn luyện", "> 50", "", "", "", ""]
         },
     ];
 
